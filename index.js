@@ -90,8 +90,8 @@
 // // // create a variable called newElement. Use "createElement("element")" to create an <whateverElement></whateverElement>.
 // // const newElement = document.createElement("div")
 // // newElement.innerText = `${numberParks} exciting parks to visit`
-// // //Add a class to the new element using .classList.add("the-class")
-// // newElement.classList.add("header-satatement")
+// // //Add a pre-existing class to the new element using .classList.add("the-class")
+// // newElement.classList.add("header-statement")
 // // // select the <header> element, add the new element to it using .appendChild(theNewThing)
 // // const headerz = document.querySelector("header")
 // // headerz.appendChild(newElement)
