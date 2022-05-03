@@ -147,9 +147,11 @@
 
 const submitHandler = (event) => {
   event.preventDefault();
-
-  const formData = new FormData(event.target);
+  console.log("Hello")
+  // const formData = new FormData(event.target);
+  const formData = new FormData(document.querySelector('#park-form'))
   const name = formData.get("name");
-  console.log(name);
+  console.log(formData);
 };
 
+let buttons = document.querySelectorAll("button")
